@@ -4,6 +4,9 @@
 }
 
 body {
+  display: grid;
+  grid-template-rows: 48px 1fr 96px;
+  min-height: 100vh;
   background: url(./img/nature_1920.jpg) no-repeat;
   background-position: center;
   font-family: sans-serif;
@@ -46,9 +49,9 @@ h2 {
 }
 
 .container {
-  display: grid;
-  justify-content: space-around;
-  padding-top: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.5em;
 }
 .animation {
@@ -58,9 +61,10 @@ h2 {
 }
 
 footer {
-  display: grid;
+  display: flex;
   justify-content: center;
-  padding-top: 25em;
+  align-items: center;
+  padding: 1rem;
   color: white;
 }
 .fa {
