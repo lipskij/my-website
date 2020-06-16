@@ -14,7 +14,7 @@ body {
 
 nav {
   padding: 1em;
-  display: grid;
+  display: flex;
   justify-content: space-around;
   background: linear-gradient(to right#b4b3af, #9a9b96);
 }
@@ -54,6 +54,17 @@ h2 {
   align-items: center;
   font-size: 1.5em;
 }
+
+.container-list { /* projects container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-cont {
+  list-style: none;
+  line-height: 1.5;
+}
+
 .animation {
   position: relative;
   animation: fadeInSwoop 0.5s reverse;
@@ -65,7 +76,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  color: white;
+  color: #fff;
 }
 .fa {
   font-size: 20px;
