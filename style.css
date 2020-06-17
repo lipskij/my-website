@@ -5,11 +5,27 @@
 
 body {
   display: grid;
+  position: relative;
   grid-template-rows: 48px 1fr 96px;
   min-height: 100vh;
-  background: url(./img/nature_1920.jpg) no-repeat;
   background-position: center;
+  background-color: #a3a29e;
   font-family: sans-serif;
+}
+
+.bkg-img,
+picture,
+.bkg-img img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  min-width: 100vw;
+  max-width: 100vw;
+  min-height: 100vh;
+  max-height: 100vh;
+  z-index: -1;
 }
 
 nav {
@@ -45,7 +61,7 @@ h1,
 h2 {
   display: grid;
   justify-content: center;
-  line-height: 5;
+  line-height: 4;
 }
 
 .container {
