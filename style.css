@@ -75,27 +75,22 @@ section li {
 }
 .row-2 {
   color: #2c2c2b;
-  font-size: 1.3em;
   animation: fadeIn 1s ease-in-out;
 }
 .row-3 {
   color: #2c2c2b;
-  font-size: 1.3em;
   animation: fadeIn 1.3s ease-in-out;
 }
 .row-4 {
   color: #2c2c2b;
-  font-size: 1.3em;
   animation: fadeIn 1.5s ease-in-out;
 }
 .row-5 {
   color: #2c2c2b;
-  font-size: 1.3em;
   animation: fadeIn 1.7s ease-in-out;
 }
 .row-6 {
   color: #2c2c2b;
-  font-size: 1.3em;
   animation: fadeIn 1.9s ease-in-out;
 }
 
@@ -172,13 +167,12 @@ section li {
   transition: all 0.5s ease;
 }
 
-.git-link {
+.git-link  img{
   display: flex;
   justify-content: flex-end;
+  width: 30px;
 }
-.fa {
-  font-size: 1.5em;
-}
+
 div a {
   text-decoration: none;
   color: #1f1f1d;
@@ -236,7 +230,6 @@ div a {
     width: 50%;
     height: 50%;
     margin-top: 20px;
-    /* padding-top: 2rem; */
     border-radius: 50%;
   }
 }
