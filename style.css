@@ -233,8 +233,10 @@ div a {
     flex-direction: row;
   }
   .me {
-    width: 30%;
-    height: 30%;
-    padding-top: 2rem;
+    width: 50%;
+    height: 50%;
+    margin-top: 20px;
+    /* padding-top: 2rem; */
+    border-radius: 50%;
   }
 }
