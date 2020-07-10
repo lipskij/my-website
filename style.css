@@ -16,8 +16,6 @@ header {
   top: 0;
   background: #f8f7e7;
   z-index: 1;
-  animation: fadeInSwoop 0.7s;
-  animation-timing-function: ease-out;
 }
 
 nav {
@@ -29,48 +27,55 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-
 nav ul {
-  font-size: 1.1em;
+  font-size: 1.2rem;
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
-
-nav a {
-  color: #1f1f1d;
+nav a,
+nav li {
+  color: #6b6b68;
   text-decoration: none;
-  margin: 0 10px 0;
+  margin: 0 10px 5px;
+  transition: all 0.2s ease-in;
+}
+nav li:hover {
+  transition: all 0.2s ease-in;
+  transform: scale(1.1);
 }
 
 section {
   min-height: 100vh;
 }
-
-section h2 {
-  font-size: 1.5em;
-  color: #2c2c2b;
-}
-
 section a,
 section li {
   list-style: none;
   text-decoration: none;
   color: #2c2c2b;
   animation: 1s fadelist ease-in ;
-  font-size: 1em;
+  font-size: 1rem;
+  width: 80vw;
+  margin: 0 auto;
+}
+section li {
+  transition: all 0.2s ease-out;
+}
+section li:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-out;
 }
 
 .home {
   background: #f8f7e7;
   text-align: center;
   line-height: 2;
-  padding-top: 3em;
+  padding-top: 8rem;
 }
 .row-1 {
-  padding-top: 3em;
+  padding-top: 3rem;
   color: #2c2c2b;
-  font-size: 2em;
+  font-size: 2rem;
   animation: fadeIn 0.5s ease-in-out;
 }
 .row-2 {
@@ -80,10 +85,6 @@ section li {
 .row-3 {
   color: #2c2c2b;
   animation: fadeIn 1.3s ease-in-out;
-}
-.row-4 {
-  color: #2c2c2b;
-  animation: fadeIn 1.5s ease-in-out;
 }
 .row-5 {
   color: #2c2c2b;
@@ -134,27 +135,25 @@ section li {
 
 .about {
   background: linear-gradient(to bottom, #f8f7e7, #c5c5c1);
-  padding-top: 3em;
+  padding-top: 8rem;
   text-align: center;
   line-height: 2;
 }
 
 .projects {
   background: linear-gradient(to bottom, #c5c5c1, #8f8f8c);
-  padding-top: 5em;
-  text-align: left;
-  padding-left: 20px;
+  padding-top: 5rem;
+  text-align: center;
   line-height: 3;
 }
 .proj-img img {
-  display: flex;
   justify-content: center;
   align-items: center;
-  width: 35%;
+  width: 65%;
   transition: all 0.3s ease-out;
 }
 .proj-img img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: all 0.3s ease-out;
 }
 
@@ -167,7 +166,7 @@ section li {
   transition: all 0.5s ease;
 }
 
-.git-link  img{
+.git-link img {
   display: flex;
   justify-content: flex-end;
   width: 30px;
@@ -176,18 +175,7 @@ section li {
 div a {
   text-decoration: none;
   color: #1f1f1d;
-  font-size: 1.5em;
-}
-
-@keyframes fadeInSwoop {
-  from {
-    transform: translateY(-50px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+  font-size: 1.5rem;
 }
 
 @keyframes fadeIn {
@@ -231,5 +219,14 @@ div a {
     height: 50%;
     margin-top: 20px;
     border-radius: 50%;
+  }
+  .home {
+    text-align: left;
+    padding-left: 12rem;
+    line-height: 2;
+    padding-top: 8rem;
+  }
+  .proj-img img {
+    width: 35%;
   }
 }
