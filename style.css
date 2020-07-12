@@ -154,17 +154,20 @@ section li:hover {
 .git-link img {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   width: 25px;
 }
 
-footer a {
+.soc-link img {
+  flex-direction: row;
+  width: 25px;
+  margin: 0.5rem;
+}
+footer {
   display: flex;
-  align-items: center;
   justify-content: center;
   text-decoration: none;
   color: #1f1f1d;
-  font-size: 1.2rem;
-  padding: 0.5rem;
 }
 
 @keyframes fadeIn {
