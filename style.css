@@ -135,11 +135,6 @@ section li:hover {
   justify-content: center;
   align-items: center;
   width: 65%;
-  transition: all 0.3s ease-out;
-}
-.proj-img img:hover {
-  transform: scale(1.05);
-  transition: all 0.3s ease-out;
 }
 
 .buble {
