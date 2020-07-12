@@ -35,10 +35,13 @@ nav ul {
 }
 nav a,
 nav li {
-  color: #6b6b68;
+  color: #2c2c2b;
   text-decoration: none;
   margin: 0 10px 5px;
   transition: all 0.2s ease-in;
+}
+nav a:hover {
+  color: #9984D4;
 }
 nav li:hover {
   transition: all 0.2s ease-in;
@@ -53,7 +56,6 @@ section li {
   list-style: none;
   text-decoration: none;
   color: #2c2c2b;
-  animation: 1s fadelist ease-in ;
   font-size: 1rem;
   width: 80vw;
   margin: 0 auto;
@@ -80,19 +82,19 @@ section li:hover {
 }
 .row-2 {
   color: #2c2c2b;
-  animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 0.9s ease-in-out;
 }
 .row-3 {
   color: #2c2c2b;
   animation: fadeIn 1.3s ease-in-out;
 }
-.row-5 {
+.row-4 {
   color: #2c2c2b;
   animation: fadeIn 1.7s ease-in-out;
 }
-.row-6 {
+.row-5 {
   color: #2c2c2b;
-  animation: fadeIn 1.9s ease-in-out;
+  animation: fadeIn 2.1s ease-in-out;
 }
 
 .me {
@@ -114,23 +116,6 @@ section li:hover {
 }
 .my-photo img {
   transition: all 0.3s ease-out;
-}
-
-.animation {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 50vh;
-  position: relative;
-  overflow: hidden;
-}
-
-.paper-plane {
-  position: absolute;
-  height: 80px;
-  top: 50%;
-  left: 0%;
-  opacity: 0.5;
 }
 
 .about {
@@ -169,27 +154,20 @@ section li:hover {
 .git-link img {
   display: flex;
   justify-content: flex-end;
-  width: 30px;
+  width: 25px;
 }
 
-div a {
+footer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   color: #1f1f1d;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
 }
 
 @keyframes fadeIn {
-  from {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-@keyframes fadelist {
   from {
     transform: translateX(-100px);
     opacity: 0;
