@@ -28,10 +28,9 @@ nav {
   justify-content: space-between;
 }
 nav ul {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   list-style: none;
   display: flex;
-  justify-content: space-between;
 }
 nav a,
 nav li {
@@ -41,7 +40,7 @@ nav li {
   transition: all 0.2s ease-in;
 }
 nav a:hover {
-  color: #9984D4;
+  color: #797979;
 }
 nav li:hover {
   transition: all 0.2s ease-in;
@@ -65,6 +64,9 @@ section li {
 }
 section li:hover {
   transform: scale(1.1);
+  text-decoration: underline;
+  text-underline-offset: 0.5em;
+  text-decoration-color: #e4736f;
   transition: all 0.2s ease-out;
 }
 
