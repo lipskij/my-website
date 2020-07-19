@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font-family: 'Spartan', sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
@@ -64,9 +64,6 @@ section li {
 }
 section li:hover {
   transform: scale(1.1);
-  text-decoration: underline;
-  text-underline-offset: 0.5em;
-  text-decoration-color: #e4736f;
   transition: all 0.2s ease-out;
 }
 
