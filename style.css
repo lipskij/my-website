@@ -99,8 +99,8 @@ section li:hover {
 .me {
   animation: fade 1s cubic-bezier(0.13, 0.72, 0.45, 0.94);
   border-radius: 50%;
-  width: 50%;
-  height: 50%;
+  max-width: 50%;
+  margin-top: 3rem;
   z-index: 0;
 }
 .my-photo {
@@ -110,11 +110,11 @@ section li:hover {
   transition: all 0.3s ease-out;
 }
 .my-photo:hover img {
-  transform: scale(1.2);
-  transition: all 0.3s ease-out;
+  transform: scale(1.1);
+  transition: all 0.4s ease-out;
 }
 .my-photo img {
-  transition: all 0.3s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 .about {
@@ -190,9 +190,8 @@ footer {
     flex-direction: row;
   }
   .me {
-    width: 50%;
-    height: 50%;
-    margin-top: 20px;
+    max-width: 30%;
+    margin-top: 1rem;
     border-radius: 50%;
   }
   .home {
