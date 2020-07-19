@@ -99,8 +99,8 @@ section li:hover {
 .me {
   animation: fade 1s cubic-bezier(0.13, 0.72, 0.45, 0.94);
   border-radius: 50%;
-  width: 60%;
-  height: 60%;
+  width: 50%;
+  height: 50%;
   z-index: 0;
 }
 .my-photo {
