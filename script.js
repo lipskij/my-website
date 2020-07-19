@@ -1,10 +1,6 @@
 const sections = document.querySelectorAll('section');
 const buble = document.querySelector('.buble');
 
-var scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 300
-}); // smooth scrool cross browsers
-
 const options = { // nav scrooling indicator
   threshold: 0.8
 };
