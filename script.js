@@ -1,5 +1,7 @@
 const sections = document.querySelectorAll('section');
 const buble = document.querySelector('.buble');
+const arrow = document.querySelector('.arrows');
+
 
 const options = { // nav scrooling indicator
   threshold: 0.8
