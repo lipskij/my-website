@@ -30,3 +30,6 @@ function navCheck(entries) {
 sections.forEach(section => {
   observer.observe(section);
 });
+
+
+// add animation on crool down to animate text
