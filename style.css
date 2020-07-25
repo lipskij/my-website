@@ -74,6 +74,7 @@ section li:hover {
   text-align: center;
 }
 .hero video {
+  padding-top: 2rem;
   width: 50vw;
 }
 
@@ -81,10 +82,9 @@ section li:hover {
   background: #f8f7e7;
   text-align: center;
   line-height: 2;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 .row-1 {
-  padding-top: 3rem;
   color: #2c2c2b;
   font-size: 2rem;
   animation: fadeIn 0.5s ease-in-out;
@@ -197,6 +197,9 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
   }
+  .home {
+    padding-top: 5rem;
+  }
   .me {
     max-width: 60%;
     margin: 0 auto;
@@ -212,6 +215,7 @@ footer {
   .hero video {
     width: 20vw;
     animation: stretch 3s infinite alternate ease-in-out;
+    padding: 0;
   }
   .home-grid {
     display: grid;
@@ -239,6 +243,9 @@ footer {
   }
   .proj-img img {
     width: 35%;
+  }
+  .row-1 {
+    padding-top: 3rem;
   }
   .skill-icon {
     display: grid;
