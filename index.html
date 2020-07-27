@@ -1,92 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Emil Lipskij front end developer web site">
-  <link rel="stylesheet" href="style.css">
-  <title>Emil</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="git-link">
-        <a href="https://github.com/lipskij" target="_blank" rel="noopener noreferrer">
-          <img src="/img/logo.svg" alt="github-logo" />
-        </a>
-      </div>
-      <h1>Emil Lipskij</h1>
-      <ul>
-        <li><a data-page="home" href="#home">Home</a></li>
-        <li><a data-page="about" href="#about">About</a></li>
-        <li><a data-page="projects" href="#projects">Projects</a></li>
-        <div class="buble"></div>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <a name="home"></a>
-    <section data-index="0" class="home">
-      <div class="home-grid">
-        <div class="home-grid-text">
-          <p class="row-1">Front end developer</p>
-          <p class="row-2">Love for effective design</p>
-          <p class="row-3">Creative problem solving</p>
-          <a href="#about">
-            <img src="/img/arowdown.png" alt="arrow-down"/>
-          </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Emil Lipskij front end developer website"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Developer</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
         </div>
-        <div class="home-grid-img">
-          <img src="/img/me-3.JPEG" alt="photo-of-me" class="me"/>
+        <ul class="nav-links">
+          <li><a data-page="home" href="#home">Home</a></li>
+          <li><a data-page="about" href="#about">About</a></li>
+          <li><a data-page="projects" href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <a name="home"></a>
+      <section data-index="0" class="home">
+        <div class="home-grid">
+          <div class="home-grid-text">
+            <h2>Hi! I'm Emil Lipskij</h2>
+            <p class="row-1">Front end developer</p>
+            <p class="row-2">Love for effective design</p>
+            <p class="row-3">Creative problem solving</p>
+            <a href="#about">
+              <img src="/img/arowdown.png" alt="arrow-down" />
+            </a>
+          </div>
+          <div class="home-grid-img">
+            <img src="/img/me-3.JPEG" alt="photo-of-me" class="me" />
+          </div>
         </div>
+      </section>
+      <a name="about"></a>
+      <section data-index="1" class="about">
+        <div class="about-me">
+          <p class="row-1">About me</p>
+          <p class="row-2">Finished online courses on Front End Masters.</p>
+          <p class="row-3">Circus artist in the past.</p>
+          <p class="row-4">A passion for knowledge.</p>
+          <p class="row-5">Flexibility and discipline mentality.</p>
+        </div>
+        <div class="about-me">
+          <p class="row-1">Skills</p>
+          <p class="row-2">#HTML5</p>
+          <p class="row-3">#CSS3</p>
+          <p class="row-4">#JavaScript</p>
+          <!-- <div class="git">
+            <p class="row-6">
+              You can find me
+            </p>
+            <a
+              href="https://github.com/lipskij"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/img/github.svg" alt="github-logo"
+            /></a>
+            <p class="row-7">Write me!<br><a href="mailto:emil.lipskij@gmail.com">emil.lipskij@gmail.com</a></p>
+          </div> -->
+        </div>
+        </div>
+        <div class="skill-icon">
+          <img src="/img/html55.svg" alt="html5-logo" class="html5" />
+          <img src="/img/css33.svg" alt="css3-logo" class="css3" />
+          <img src="/img/jsss.png" alt="js-logo" class="js" />
+        <div class="contacts"></div>
+      </section>
+      <a name="projects"></a>
+      <section data-index="2" class="projects">
+        <p class="row-1">Projects</p>
+        <ul class="project-cont">
+          <li class="li-1">
+            <a
+              href="https://covid-19-graph-ltu.netlify.app/"
+              target="_blank"
+              class="link"
+              rel="noopener noreferrer"
+            >
+              <p class="row-2">Covid-19 Graph for Lithuania</p></a
+            >
+          </li>
+        </ul>
+        <div class="proj-img">
+          <img class="cov" src="/img/covid.jpg" alt="graph" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="soc-link">
+        <p>made by Emil Lipskij &hearts;</p>
       </div>
-    </section>
-    <a name="about"></a>
-    <section data-index="1" class="about">
-      <div class="about-me">
-        <p class="row-1">About me</p>
-        <p class="row-2">Finished online courses on Front End Masters</p>
-        <p class="row-3">Circus artist in the past</p>
-        <p class="row-4">A passion for knowledge</p>
-        <p class="row-5">Flexibility and discipline mentality</p>
-      </div>
-      <div class="about-me">
-        <p class="row-1">Skills</p>
-        <p class="row-2">#HTML5</p>
-        <p class="row-3">#CSS3</p>
-        <p class="row-4">#JavaScript</p>
-      </div>
-      <div class="skill-icon">
-        <img src="/img/html55.svg" alt="html5-logo" class="html5"/>
-        <img src="/img/css33.svg" alt="css3-logo" class="css3"/>
-        <img src="/img/jsss.png" alt="js-logo" class="js"/>
-      </div>
-    </section>
-    <a name="projects"></a>
-    <section data-index="2" class="projects">
-      <p class="row-1">Projects</p>
-      <ul class="project-cont">
-        <li class="li-1">
-          <a href="https://covid-19-graph-ltu.netlify.app/" target="_blank" class="link" rel="noopener noreferrer">
-            <p class="row-2">Covid-19 Graph for Lithuania</p></a>
-        </li>
-      </ul>
-      <div class="proj-img">
-          <img class="cov" src="/img/covid.jpg" alt="graph">
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div class="soc-link">
-      <a href="https://github.com/lipskij" target="_blank" rel="noopener noreferrer">
-        <img src="/img/logo.svg" alt="github-logo" /></a>
-      <a href="mailto:emil.lipskij@gmail.com">
-        <img src="/img/mail.svg" alt="mail-logo" />
-      </a>
-    </div>
-  </footer>
-</body>
+    </footer>
 
-  <script src="/script.js"></script>
-</body>
+    <script src="/script.js"></script>
+  </body>
 </html>
