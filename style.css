@@ -8,6 +8,7 @@ html {
 }
 body {
   font-family: sans-serif;
+  background-color: #3D3D43;
 }
 
 header {
@@ -15,6 +16,11 @@ header {
   top: 0;
   width: 100%;
   z-index: 1;
+}
+.separator {
+  border: #915FA9 0.1rem solid;
+  margin: 2rem;
+  border-radius: 50%;
 }
 
 nav {
@@ -300,8 +306,8 @@ footer {
     margin: 0 auto;
     width: 100vw;
     padding: 2rem;
+    padding-top: 4rem;
     text-align: left;
-    align-items: center;
   }
   .about-skills {
     display: grid;
@@ -324,7 +330,6 @@ footer {
   .me {
     display: flex;
     margin: 0 auto;
-    padding-top: 3rem;
     max-width: 100%;
     animation: fadeInRight 1.5s cubic-bezier(0.13, 0.72, 0.45, 0.94);
   }
