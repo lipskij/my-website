@@ -13,6 +13,9 @@
   <body>
     <header>
       <nav>
+        <div class="log">
+          <h1>ГГГ<br>EMI</h1>
+        </div>
         <div class="hamburger">
           <div class="line"></div>
           <div class="line"></div>
@@ -30,57 +33,60 @@
       <section data-index="0" class="home">
         <div class="home-grid">
           <div class="home-grid-text">
-            <h2>Hi! I'm Emil Lipskij</h2>
-            <p class="row-1">Front end developer</p>
-            <p class="row-2">Love for effective design</p>
-            <p class="row-3">Creative problem solving</p>
-            <a href="#about">
-              <img src="/img/arowdown.png" alt="arrow-down" />
+            <h2>Hi!<br />I'm Emil Lipskij<br />web developer.</h2>
+            <p class="pg1-1">Front End Developer /</p>
+            <a href="https://github.com/lipskij" target="_blank" rel="noopener">
+              <img src="/img/github.svg" alt="github-logo" />
+            </a>
+            <a
+              href="https://facebook.com/Emil.Lips"
+              target="_blank"
+              rel="noopener"
+            >
+              <img src="/img/fb.svg" alt="facebook-logo" />
+            </a>
+            <a
+              href="mailto:emil.lipskij@gmail.com"
+              target="_blank"
+              rel="noopener"
+            >
+              <img src="/img/maill.png" alt="mail-logo" />
             </a>
           </div>
           <div class="home-grid-img">
-            <img src="/img/me-3.JPEG" alt="photo-of-me" class="me" />
+            <picture>
+              <source media="(min-width:300px)" srcset="/img/me-3.JPEG" />
+              <img src="/img/me-3_small.jpg" alt="photo-of-me" class="me" />
+            </picture>
           </div>
         </div>
       </section>
       <a name="about"></a>
       <section data-index="1" class="about">
         <div class="about-me">
-          <p class="row-1">About me</p>
-          <p class="row-2">Finished online courses on Front End Masters.</p>
-          <p class="row-3">Circus artist in the past.</p>
-          <p class="row-4">A passion for knowledge.</p>
-          <p class="row-5">Flexibility and discipline mentality.</p>
+          <h2>About me</h2>
+          <p class="pg1-1">Finished online courses on Front End Masters.</p>
+          <p class="pg1-1">Circus artist in the past.</p>
+          <p class="pg1-1">A passion for knowledge.</p>
+          <p class="pg1-1">Flexibility and discipline mentality.</p>
         </div>
-        <div class="about-me">
-          <p class="row-1">Skills</p>
-          <p class="row-2">#HTML5</p>
-          <p class="row-3">#CSS3</p>
-          <p class="row-4">#JavaScript</p>
-          <!-- <div class="git">
-            <p class="row-6">
-              You can find me
-            </p>
-            <a
-              href="https://github.com/lipskij"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src="/img/github.svg" alt="github-logo"
-            /></a>
-            <p class="row-7">Write me!<br><a href="mailto:emil.lipskij@gmail.com">emil.lipskij@gmail.com</a></p>
-          </div> -->
+        <div class="about-skills">
+          <div class="about-text">
+            <h2>Skills</h2>
+            <p class="pg1-1">#HTML5</p>
+            <p class="pg1-1">#CSS3</p>
+            <p class="pg1-1">#JavaScript</p>
+          </div>
+          <div class="skill-icon">
+            <img src="/img/html.svg" alt="html5-logo" class="html" />
+            <img src="/img/css3.svg" alt="css3-logo" class="css3" />
+            <img src="/img/js.svg" alt="js-logo" class="js" />
+          </div>
         </div>
-        </div>
-        <div class="skill-icon">
-          <img src="/img/html55.svg" alt="html5-logo" class="html5" />
-          <img src="/img/css33.svg" alt="css3-logo" class="css3" />
-          <img src="/img/jsss.png" alt="js-logo" class="js" />
-        <div class="contacts"></div>
       </section>
       <a name="projects"></a>
       <section data-index="2" class="projects">
-        <p class="row-1">Projects</p>
+        <h2 class="projects-text">Projects</h2>
         <ul class="project-cont">
           <li class="li-1">
             <a
@@ -89,7 +95,7 @@
               class="link"
               rel="noopener noreferrer"
             >
-              <p class="row-2">Covid-19 Graph for Lithuania</p></a
+              <p class="pg1-1">Covid-19 Graph for Lithuania</p></a
             >
           </li>
         </ul>
