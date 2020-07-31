@@ -296,7 +296,7 @@ footer {
   }
   .pg1-1 {
     font-size: 1rem;
-    color: #FBFBFB;
+    color: #D1C7C7;
     animation: fadeIn 1s cubic-bezier(0.13, 0.72, 0.45, 0.94);
   }
   .about {
@@ -314,7 +314,7 @@ footer {
     grid-template-columns: 1fr 1fr;
   }
   .skill-icon {
-    justify-content: center;
+    align-items: unset;
     padding-bottom: 0;
     padding-top: 0;
     grid-column: 2/2;
@@ -322,7 +322,7 @@ footer {
   .js,
   .css3,
   .html {
-    margin: 0.2rem;
+    margin: 0;
     background-color: #915FA9;
     border-radius: 5px;
     padding: 0.2rem;
