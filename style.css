@@ -165,6 +165,7 @@ h2 {
 footer {
   text-align: center;
   padding: 1rem;
+  color: #D1C7C7;
 }
 
 @keyframes fadeIn {
@@ -286,7 +287,7 @@ footer {
     box-shadow: none;
   }
   .home-grid-text img {
-    margin-right: 0.2rem;
+    margin-right: 1rem;
     margin-top: 0.2rem;
     padding: 0.2rem;
     background-color: #915FA9;
