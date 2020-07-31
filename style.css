@@ -273,16 +273,15 @@ footer {
     grid-row: 1/2;
   }
   .home-grid-text {
-    padding: 1rem;
+    padding-left: 1rem;
     text-align: left;
     grid-row: 2/2;
     margin: 0 auto;
     box-shadow: none;
   }
   .home-grid-text img {
-    margin-top: 2rem;
-    margin-right: 0;
-    grid-column: 2/2;
+    margin-right: 0.2rem;
+    margin-top: 0.2rem;
     padding: 0.2rem;
     background-color: #915FA9;
     border-radius: 10%;
