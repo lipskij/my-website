@@ -8,13 +8,17 @@
       content="Emil Lipskij front end developer website"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="/script.js" defer></script>
     <title>Web Developer</title>
   </head>
-  <body>
+  <body class="">
     <header>
       <nav>
         <div class="log">
           <h1>ГГГ<br />EMI</h1>
+        </div>
+        <div class="dark-theme">
+          <button class="toggle"></button>
         </div>
         <div class="hamburger">
           <div class="line"></div>
@@ -39,11 +43,12 @@
               <img src="/img/github.svg" alt="github-logo" />
             </a>
             <a
-              href="https://facebook.com/Emil.Lips"
+              class="mailto"
+              href="mailto:emil.lipskij@gmail.com"
               target="_blank"
               rel="noopener"
             >
-              <img src="/img/fb.svg" alt="facebook-logo" />
+              <img src="/img/maill.png" alt="mail-logo" />
             </a>
           </div>
           <div class="home-grid-img">
@@ -97,7 +102,13 @@
           </li>
         </ul>
         <div class="proj-img">
-          <img class="cov" src="/img/covid.jpg" alt="graph" />
+          <a
+            href="https://covid-19-graph-ltu.netlify.app/"
+            target="_blank"
+            class="link"
+            rel="noopener noreferrer"
+            ><img class="cov" src="/img/covid.jpg" alt="graph"
+          /></a>
         </div>
       </section>
     </main>
@@ -106,7 +117,5 @@
         <p>made by Emil Lipskij &hearts;</p>
       </div>
     </footer>
-
-    <script src="/script.js"></script>
   </body>
 </html>
