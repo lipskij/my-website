@@ -51,7 +51,6 @@ nav {
   margin: auto;
   display: flex;
   border: var(--text-color) 2px solid;
-  background-color: var(--nav-color);
   width: 1.2rem;
   height: 2.6rem;
   border-radius: 20%;
@@ -110,7 +109,6 @@ section li {
 }
 .home-grid {
   display: grid;
-  background: var(--background-color);
   align-items: center;
   line-height: 1.8;
   grid-template-columns: 1fr 1fr;
@@ -141,7 +139,6 @@ section li {
 }
 .me {
   animation: fade 1s cubic-bezier(0.13, 0.72, 0.45, 0.94);
-  max-width: 60%;
   margin-top: 6rem;
   border-radius: 2%;
   z-index: 0;
@@ -163,7 +160,6 @@ h2 {
 .about {
   display: grid;
   grid-template-columns: 1fr;
-  background: var(--background-color);
   padding: 8rem;
   line-height: 2;
   grid-gap: 5rem;
@@ -188,7 +184,6 @@ h2 {
   padding: 0.2rem;
 }
 .projects {
-  background: var(--background-color);
   padding-top: 5rem;
   text-align: center;
   line-height: 2;
@@ -334,9 +329,6 @@ footer {
     cursor: pointer;
     animation: fade 1s cubic-bezier(0.13, 0.72, 0.45, 0.94);
   }
-  .home-grid-text .mailto {
-    grid-column: 2/2;
-  }
   .pg1-1 {
     font-size: 1rem;
     color: var(--small-text);
@@ -366,7 +358,6 @@ footer {
   .css3,
   .html {
     margin: 0;
-    background-color: var(--accent-color);
     border-radius: 5px;
     padding: 0.2rem;
   }
