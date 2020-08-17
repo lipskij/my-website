@@ -199,7 +199,7 @@ h2 {
 .proj-img img {
   width: 80%;
   margin-top: 2rem;
-  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 .projects-text {
   text-align: center;
