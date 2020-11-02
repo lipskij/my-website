@@ -136,6 +136,7 @@ section li {
 }
 .me {
   border-radius: 5px;
+  box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.2);
   z-index: 0;
 }
 h2 {
