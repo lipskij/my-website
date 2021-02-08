@@ -33,17 +33,18 @@ header {
   width: 100%;
   z-index: 1;
 }
-.separator {
-  border: var(--accent-color) 0.1rem solid;
-  border-radius: 50%;
-}
 
 nav {
-  height: 5vh;
+  height: 7vh;
   margin: auto;
   width: 100%;
   display: flex;
   background: var(--nav-color);
+}
+
+.separator {
+  border: var(--accent-color) 0.1rem solid;
+  border-radius: 50%;
 }
 .dark-theme {
   margin: auto;
@@ -93,10 +94,11 @@ h1 {
   color: var(--text-color);
   text-decoration: none;
   font-size: 16px;
-  font-weight: 550;
+  font-weight: 500;
 }
 .nav-links li:hover {
   transform: scale(1.1);
+  transition-duration: 0.3s;
 }
 section {
   min-height: 100vh;
@@ -131,6 +133,14 @@ section li {
 }
 .home-grid-text img:hover {
   transform: scale(1.1);
+  box-shadow: 5px 5px 5px var(--nav-color);
+  transition-duration: 0.3s;
+}
+
+.linkedin img {
+  width: 55px;
+  height: 55px;
+  padding: 7px;
 }
 .home-grid-img {
   grid-column: 2/2;
@@ -289,6 +299,13 @@ footer {
     margin-top: 0.2rem;
     padding: 0;
     color: var(--accent-color);
+    box-shadow: 5px 5px 5px var(--nav-color);
+  }
+  .linkedin img {
+    width: 48px;
+    height: 48px;
+    padding: 7px;
+    box-shadow: 5px 5px 5px var(--nav-color);
   }
   .pg1-1 {
     font-size: 1rem;
