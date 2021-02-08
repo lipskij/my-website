@@ -194,6 +194,22 @@ h2 {
   padding-top: 5rem;
   text-align: center;
 }
+.project-grid {
+  line-height: 2;
+  column-count: 2;
+  column-gap: 1rem;
+  width: 90vw;
+  margin: 0 auto;
+}
+.project-img img {
+  width: 500px;
+  margin: 0;
+}
+.project-img img:hover {
+  box-shadow: 5px 5px 5px var(--nav-color);
+  transform: scale(1.01);
+  transition-duration: 0.3s;
+}
 
 .projects-text {
   text-align: center;
@@ -357,6 +373,19 @@ footer {
     margin: 0;
     font-size: 1.2rem;
     color: var(--text-color);
+  }
+  .separator {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-img img {
+    width: 300px;
+    box-shadow: 5px 5px 5px var(--nav-color);
   }
   .projects-text {
     text-align: center;
